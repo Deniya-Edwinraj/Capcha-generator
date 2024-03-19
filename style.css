@@ -5,7 +5,14 @@
   }
   body {
     height: 100vh;
-    background: linear-gradient(135deg, #8e3a59 , #9f4576);
+    /* background: linear-gradient(135deg, #8e3a59 , #9f4576); */
+    background-color: #000;
+    font-family: Mooli;
+  }
+  h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
   }
   .container {
     width: 32em;
@@ -37,7 +44,7 @@
     color: #ffffff;
   }
   input[type="text"] {
-    font-family: "Roboto Mono", monospace;
+    font-family: Mooli;
     font-size: 1.05em;
     width: 100%;
     padding: 1em 0.7em;
